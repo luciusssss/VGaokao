@@ -1,6 +1,8 @@
 # Extract, Integrate, Compete: Towards Verification Style Reading Comprehension
 Data and code for 'Extract, Integrate, Compete: Towards Verification Style Reading Comprehension', Findings of EMNLP 2021
 
+Arxiv Preprint: TBD
+
 ## VGaokao Dataset
 The VGaokao dataset is in `data/raw`
 ### Size
