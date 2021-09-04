@@ -48,4 +48,20 @@ The format of VGaokao dataset is as follows.
 
 ## Extract-Integrate-Compete Method
 
+### Dependency
+* torch >= 1.8.1
+* transformers == 3.5.1
+* jieba >= 0.42.1
 
+### How to Run
+**Step 1: Download the resources** 
+https://drive.google.com/file/d/1HbtbT4Y8YEvNqtG5aaVB_rzIdCv44R_E/view?usp=sharing
+Put the `word_vectors` folder of the zip file into `data/external`.
+Put the `roberta-large_ocnli` folder of the zip file into `models`.
+
+**Step 2: Run the script**
+```
+cd src
+./run.sh
+```
+The prediction result is in `models/vgaokao_soft-masking/test_mc_results.json`.
