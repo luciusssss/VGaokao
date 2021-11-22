@@ -54,6 +54,8 @@ The format of VGaokao dataset is as follows.
 * torch >= 1.8.1
 * transformers == 3.5.1
 * jieba >= 0.42.1
+* sentence-transformers == 1.0.4
+* datasets == 1.5.0
 
 ### How to Run
 **Step 1: Download the resources** 
