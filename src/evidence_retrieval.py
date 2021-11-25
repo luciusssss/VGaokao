@@ -201,7 +201,7 @@ if __name__ == '__main__':
     if os.path.exists('../data/external/distiluse-base-multilingual-cased-v1'):
         bert_embedder = SentenceTransformer('../data/external/distiluse-base-multilingual-cased-v1')
     else:
-        bert_embedder = SentenceTransformer('../data/external/distiluse-base-multilingual-cased-v1')
+        bert_embedder = SentenceTransformer('distiluse-base-multilingual-cased-v1')
     # If you cannot download the model with SentenceTransformer,
     # you can download the model from
     # https://public.ukp.informatik.tu-darmstadt.de/reimers/sentence-transformers/v0.2/
